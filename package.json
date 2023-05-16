@@ -1,0 +1,21 @@
+{
+  "name": "example-cypress-javascript-ufg",
+  "version": "2.0.0",
+  "description": "An example project for Cypress in JavaScript using Applitools Ultrafast Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --e2e  \"cypress/e2e/image-validation.cy.js\"",
+    "cypress:open": "cypress open"
+  },
+  "author": "Applitools Team <team@applitools.com> (http://www.applitools.com/)",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.32.1",
+    "cypress-real-events": "^1.7.6"
+  },
+  "devDependencies": {
+    "@applitools/eyes-images": "^4.23.0",
+    "cypress": "^12.11.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
